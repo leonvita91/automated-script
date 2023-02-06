@@ -56,14 +56,17 @@ from time import sleep
 #     server.send_message(msg)
 
 
-
 driver_path = "/opt/homebrew/bin/chromedriver"
 brave_path = '/Applications/Brave Browser.app/Contents/MacOS/Brave Browser'
-
 option = webdriver.ChromeOptions()
 option.binary_location = brave_path
+option.add_experimental_option('detach', True)
 driver = webdriver.Chrome(executable_path=driver_path, options=option)
 # Create new Instance of Chrome
 driver.get("https://web.whatsapp.com")
-sleep(50)
+sleep(3)
+driver.get('https://www.google.com')
+# driver.quit()
 
+
+# driver.close()
