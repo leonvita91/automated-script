@@ -10,7 +10,6 @@ from selenium import webdriver
 from time import sleep
 
 
-# this is from my local repo
 
 # Twilio section
 # # sending sms with API twilio
