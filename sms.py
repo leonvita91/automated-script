@@ -9,6 +9,9 @@ import imghdr
 from selenium import webdriver
 from time import sleep
 
+
+
+
 # Twilio section
 # # sending sms with API twilio
 # account_sid = os.environ["sid"]
