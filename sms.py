@@ -1,4 +1,5 @@
 import os
+import getpass
 # lib for sending emails with smtp
 import smtplib, ssl
 from email.message import EmailMessage
@@ -8,6 +9,8 @@ import imghdr
 # lib for whatsapp bot with web flow control
 from selenium import webdriver
 from time import sleep
+
+
 
 # Twilio section
 # # sending sms with API twilio
@@ -56,17 +59,32 @@ from time import sleep
 #     server.send_message(msg)
 
 
+
+# Dic informations 
+# CHROME_PROFILE_PATH = "user-data-dir=Users/akjasim/Library/Application Support/Google/Chrome/Wtsp"
+
+user = getpass.getuser()
+sys = {
+    'windows' : f"user-data-dir=C:\\Users\\{user}\\AppData\\Local\\Google\\Chrome\\User Data\\Default",
+    'mac'   : f"user-data-dir=Users/{user}/Library/Application Support/BraveSoftware/Brave-Browser/wts",
+    'linux'     : f"user-data-dir=/home/{user}/.config/google-chrome/default"
+}
+
+print(sys['windows'])
+print(sys['mac'])
+print(sys['linux'])
+
+
 driver_path = "/opt/homebrew/bin/chromedriver"
 brave_path = '/Applications/Brave Browser.app/Contents/MacOS/Brave Browser'
 option = webdriver.ChromeOptions()
 option.binary_location = brave_path
 option.add_experimental_option('detach', True)
+option.add_argument(sys['mac'])
 driver = webdriver.Chrome(executable_path=driver_path, options=option)
 # Create new Instance of Chrome
 driver.get("https://web.whatsapp.com")
-sleep(3)
-driver.get('https://www.google.com')
-# driver.quit()
+sleep(10)
 
 
-# driver.close()
+driver.close()

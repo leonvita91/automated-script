@@ -1,0 +1,17 @@
+2023/02/07-13:24:27.185 12f03 Reusing MANIFEST /Users/leon/git-all/github/automated-script/Users/leon/Library/Application Support/Google/Chrome/Default/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/07-13:24:27.185 12f03 Recovering log #4
+2023/02/07-13:24:27.185 12f03 Reusing old log /Users/leon/git-all/github/automated-script/Users/leon/Library/Application Support/Google/Chrome/Default/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000004.log 
+2023/02/07-13:24:27.242 8a03 Level-0 table #8: started
+2023/02/07-13:24:27.250 8a03 Level-0 table #8: 7354 bytes OK
+2023/02/07-13:24:27.257 8a03 Delete type=0 #4
+2023/02/07-13:24:27.257 8a03 Manual compaction at level-0 from '\x00\x02\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x03\x00\x00\x00' @ 0 : 0; will stop at (end)
+2023/02/07-13:24:27.456 12103 Level-0 table #10: started
+2023/02/07-13:24:27.464 12103 Level-0 table #10: 7192 bytes OK
+2023/02/07-13:24:27.472 12103 Delete type=0 #7
+2023/02/07-13:24:27.472 12103 Manual compaction at level-0 from '\x00\x04\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at '\x00\x04\x00\x00\xc8\x11\x00w\x00o\x00r\x00k\x00e\x00r\x00_\x00w\x00a\x00m\x00_\x00e\x00v\x00e\x00n\x00t\x00s' @ 1024 : 1
+2023/02/07-13:24:27.472 12103 Compacting 1@0 + 1@1 files
+2023/02/07-13:24:27.477 12103 Generated table #11@0: 372 keys, 3546 bytes
+2023/02/07-13:24:27.477 12103 Compacted 1@0 + 1@1 files => 3546 bytes
+2023/02/07-13:24:27.488 12103 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/02/07-13:24:27.488 12103 Delete type=2 #10
+2023/02/07-13:24:27.488 12103 Manual compaction at level-0 from '\x00\x04\x00\x00\xc8\x11\x00w\x00o\x00r\x00k\x00e\x00r\x00_\x00w\x00a\x00m\x00_\x00e\x00v\x00e\x00n\x00t\x00s' @ 1024 : 1 .. '\x00\x05\x00\x00\x00' @ 0 : 0; will stop at (end)
