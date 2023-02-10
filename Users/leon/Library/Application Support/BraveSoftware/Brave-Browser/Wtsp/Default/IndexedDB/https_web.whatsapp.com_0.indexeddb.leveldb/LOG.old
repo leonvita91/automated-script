@@ -1,0 +1,13 @@
+2023/02/10-13:01:02.760 13003 Reusing MANIFEST /Users/leon/git-all/github/automated-script/Users/leon/Library/Application Support/BraveSoftware/Brave-Browser/Wtsp/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/02/10-13:01:02.761 13003 Recovering log #31
+2023/02/10-13:01:02.772 13003 Reusing old log /Users/leon/git-all/github/automated-script/Users/leon/Library/Application Support/BraveSoftware/Brave-Browser/Wtsp/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000031.log 
+2023/02/10-13:01:02.970 13003 Level-0 table #35: started
+2023/02/10-13:01:02.991 13003 Level-0 table #35: 1326564 bytes OK
+2023/02/10-13:01:03.000 13003 Delete type=0 #31
+2023/02/10-13:01:03.258 13003 Compacting 2@0 + 1@1 files
+2023/02/10-13:01:03.289 13003 Generated table #36@0: 37967 keys, 1104359 bytes
+2023/02/10-13:01:03.289 13003 Compacted 2@0 + 1@1 files => 1104359 bytes
+2023/02/10-13:01:03.296 13003 compacted to: files[ 0 1 1 0 0 0 0 ]
+2023/02/10-13:01:03.296 13003 Delete type=2 #35
+2023/02/10-13:01:03.297 13003 Delete type=2 #32
+2023/02/10-13:01:03.297 13003 Delete type=2 #30

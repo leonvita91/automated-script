@@ -9,6 +9,7 @@ import imghdr
 # lib for whatsapp bot with web flow control
 from selenium import webdriver
 from time import sleep
+from config import CHROME_PROFILE_PATH
 
 
 
@@ -59,32 +60,29 @@ from time import sleep
 #     server.send_message(msg)
 
 
-
 # Dic informations 
 # CHROME_PROFILE_PATH = "user-data-dir=Users/akjasim/Library/Application Support/Google/Chrome/Wtsp"
 
-user = getpass.getuser()
-sys = {
-    'windows' : f"user-data-dir=C:\\Users\\{user}\\AppData\\Local\\Google\\Chrome\\User Data\\Default",
-    'mac'   : f"user-data-dir=Users/{user}/Library/Application Support/BraveSoftware/Brave-Browser/wts",
-    'linux'     : f"user-data-dir=/home/{user}/.config/google-chrome/default"
-}
+# user = getpass.getuser()
+# sys = {
+#     'windows' : f"user-data-dir=C:\\Users\\{user}\\AppData\\Local\\Google\\Chrome\\User Data\\Default",
+#     'mac':"/Users/leon/Library/Application Support/BraveSoftware/Brave-Browser/wts",
+#     'linux'     : f"user-data-dir=/home/{user}/.config/google-chrome/default"
+# }
 
-print(sys['windows'])
-print(sys['mac'])
-print(sys['linux'])
+# print(sys['windows'])
+# print(sys['mac'])
+# print(sys['linux'])
+whatsapp = webdriver.ChromeOptions()
+whatsapp.add_argument(CHROME_PROFILE_PATH)
 
-
+# option = webdriver.ChromeOptions()
+# option.binary_location = brave_path
 driver_path = "/opt/homebrew/bin/chromedriver"
 brave_path = '/Applications/Brave Browser.app/Contents/MacOS/Brave Browser'
-option = webdriver.ChromeOptions()
-option.binary_location = brave_path
-option.add_experimental_option('detach', True)
-option.add_argument(sys['mac'])
-driver = webdriver.Chrome(executable_path=driver_path, options=option)
+driver = webdriver.Chrome(executable_path=driver_path, options=whatsapp)
 # Create new Instance of Chrome
 driver.get("https://web.whatsapp.com")
-sleep(10)
-
+sleep(15)
 
 driver.close()

@@ -1,4 +1,0 @@
-[29348:259:0207/132426.019091:WARNING:chrome_main_delegate.cc(607)] This is Chrome version 109.1.47.186 (not a warning)
-[29348:259:0207/132426.184005:WARNING:external_provider_impl.cc(510)] Malformed extension dictionary for extension: odbfpeeihdkbihmopkbjmoonfanlbfcl.  Key external_update_url has value "", which is not a valid URL.
-[29348:259:0207/132427.239064:INFO:CONSOLE(7)] "Another connection wants to delete database 'wawc'. Closing db now to resume the delete request.", source: https://web.whatsapp.com/vendor1~app.0c8e960e5dfd7020f562.js (7)
-[29348:259:0207/132427.450396:INFO:CONSOLE(7)] "Another connection wants to delete database 'wawc'. Closing db now to resume the delete request.", source: https://web.whatsapp.com/vendor1~app.0c8e960e5dfd7020f562.js (7)

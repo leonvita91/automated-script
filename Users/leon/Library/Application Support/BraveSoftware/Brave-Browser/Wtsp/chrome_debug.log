@@ -1,0 +1,6 @@
+[37350:259:0210/130235.274305:WARNING:chrome_main_delegate.cc(607)] This is Chrome version 109.0.5414.119 (not a warning)
+[37350:259:0210/130236.330144:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Failed to execute 'put' on 'Cache': Partial response (status code 206) is unsupported", source: https://web.whatsapp.com/serviceworker.js (1)
+[37350:35075:0210/130236.603228:ERROR:cast_crl.cc(402)] CRL - Verification failed.
+[37350:259:0210/130236.606565:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Failed to execute 'put' on 'Cache': Partial response (status code 206) is unsupported", source: https://web.whatsapp.com/serviceworker.js (1)
+[37350:259:0210/130236.606620:INFO:CONSOLE(1)] "Uncaught (in promise) TypeError: Failed to execute 'put' on 'Cache': Partial response (status code 206) is unsupported", source: https://web.whatsapp.com/serviceworker.js (1)
+[37350:259:0210/130251.407725:WARNING:pref_notifier_impl.cc(41)] Pref observer for media_router.cast_allow_all_ips found at shutdown.
